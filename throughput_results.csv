@@ -1,0 +1,9 @@
+tcp_variant,delay_ms,loss_pct,throughput_mbps,cwnd_file
+reno,10,0,11.5,
+cubic,10,0,11.9,
+reno,10,1,7.34,
+cubic,10,1,7.87,
+reno,100,0,11.8,
+cubic,100,0,11.7,
+reno,100,1,None,cwnd_reno_100ms_loss1.csv
+cubic,100,1,2.5,
