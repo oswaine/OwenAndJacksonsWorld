@@ -1,0 +1,30 @@
+=== Running TCP Experiments ===
+
+Running: TCP=reno, delay=10ms, loss=0%
+[  5]   0.00-30.94  sec  35.1 MBytes  9.53 Mbits/sec                  receiver
+Running: TCP=cubic, delay=10ms, loss=0%
+[  5]   0.00-31.75  sec  36.1 MBytes  9.53 Mbits/sec                  receiver
+Running: TCP=reno, delay=10ms, loss=1%
+[  5]   0.00-30.03  sec  26.0 MBytes  7.27 Mbits/sec                  receiver
+Running: TCP=cubic, delay=10ms, loss=1%
+[  5]   0.00-30.03  sec  24.1 MBytes  6.72 Mbits/sec                  receiver
+Running: TCP=reno, delay=100ms, loss=0%
+[  5]   0.00-30.97  sec  33.4 MBytes  9.03 Mbits/sec                  receiver
+Running: TCP=cubic, delay=100ms, loss=0%
+[  5]   0.00-31.71  sec  33.5 MBytes  8.85 Mbits/sec                  receiver
+Running: TCP=reno, delay=100ms, loss=1%
+[  5]   0.00-30.21  sec  3.62 MBytes  1.01 Mbits/sec                  receiver
+Running: TCP=cubic, delay=100ms, loss=1%
+[  5]   0.00-30.21  sec  9.46 MBytes  2.63 Mbits/sec                  receiver
+
+=== CWND Logging Scenario ===
+
+Running cwnd trace: TCP=reno, delay=100ms, loss=1%
+
+CWND experiment result:
+receiver line not found
+FULL OUTPUT:
+
+Saved cwnd trace to: cwnd_reno_100ms_loss1.csv
+
+Finished all experiments.
